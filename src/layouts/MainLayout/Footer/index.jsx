@@ -1,4 +1,7 @@
-import { Section } from "../../../components/Section";
+import { Section } from '../../../components/Section';
+
+import bgMailListImg from '../../../assets/imgs/bg-mail-list.png'
+import bgFooterImg from '../../../assets/vectors/bg-footer.svg'
 
 const currentYear = new Date().getFullYear();
 
@@ -6,11 +9,11 @@ export const Footer = () => {
   return (
     <Section id="footer">
       <img
-        src="/src/assets/imgs/bg-mail-list.png"
-        alt="gradient"
+        src={bgMailListImg}
+        alt="Mail list"
         className="gradient"
       />
-      <img src="/src/assets/vectors/bg-footer.svg" alt="web" className="web" />
+      <img src={bgFooterImg} alt="web" className="web" />
 
       <div className="links">
         <a href="#0">Changlog</a>

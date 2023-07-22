@@ -6,6 +6,8 @@ import { Section } from "../../../components/Section";
 import { Language } from "./Language";
 import { Metamask } from "./Metamask";
 
+import LogoImgUrl from '../../../assets/imgs/logo.png';
+
 export const Navbar = ({ navGradient, navClassName }) => {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -29,9 +31,6 @@ export const Navbar = ({ navGradient, navClassName }) => {
       window.removeEventListener("scroll", null);
     };
   });
-
-  const LogoImgUrl = `/src/assets/imgs/logo.png`;
-  //const LogoImgUrl = `/src/assets/imgs/logo${navGradient ? "-2" : ""}.png`;
   
   return (
     <Section

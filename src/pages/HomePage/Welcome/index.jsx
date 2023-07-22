@@ -1,6 +1,14 @@
 import { Section } from "../../../components/Section";
 import { GridContainer } from "../../../components/GridContainer";
 
+import bgMissionImg from '../../../assets/imgs/bg-about-mission.png';
+import missionImg from '../../../assets/vectors/about-mission-vector.svg';
+import bgVisionImg from '../../../assets/imgs/bg-about-vision.png';
+import visionImg from '../../../assets/vectors/about-vision-vector.svg';
+import bgPurposeImg from '../../../assets/imgs/bg-about-purpose.png';
+import purposeImg from '../../../assets/vectors/about-purpose-vector.svg';
+
+
 export const Welcome = () => {
   return (
     <Section id="home">
@@ -21,16 +29,17 @@ export const Welcome = () => {
         <GridContainer rowClassName="justify-content-center">
           <div className="col-lg-4 col-md-6">
             <div className="goal-item">
+            
               <img
                 className="bg"
-                src="/src/assets/imgs/bg-about-mission.png"
-                alt="mission"
+                src={bgMissionImg}
+                alt="Mission"
               />
               <div className="text">
                 <img
                   className="top-img"
-                  src="/src/assets/vectors/about-mission-vector.svg"
-                  alt="about-mission"
+                  src={missionImg}
+                  alt="Unveiling the Potential of Cryptocurrencies"
                 />
                 <h3>Unveiling the Potential of Cryptocurrencies</h3>
                 <p className="mt-20">
@@ -41,16 +50,17 @@ export const Welcome = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="goal-item">
+            
               <img
                 className="bg"
-                src="/src/assets/imgs/bg-about-vision.png"
-                alt="vision"
+                src={bgVisionImg}
+                alt="Vision"
               />
               <div className="text">
                 <img
                   className="top-img"
-                  src="/src/assets/vectors/about-vision-vector.svg"
-                  alt="about-vision"
+                  src={visionImg}
+                  alt="Empowering Your Financial Decisions"
                 />
                 <h3>Empowering Your Financial Decisions</h3>
                 <p className="mt-20">
@@ -63,14 +73,15 @@ export const Welcome = () => {
             <div className="goal-item">
               <img
                 className="bg"
-                src="/src/assets/imgs/bg-about-purpose.png"
-                alt="purpose"
+                src={bgPurposeImg}
+                alt="Purpose"
               />
+
               <div className="text">
                 <img
                   className="top-img"
-                  src="/src/assets/vectors/about-purpose-vector.svg"
-                  alt="about-purpose"
+                  src={purposeImg}
+                  alt="Transparency and Security First"
                 />
                 <h3>Transparency and Security First</h3>
                 <p className="mt-20">

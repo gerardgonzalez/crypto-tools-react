@@ -1,5 +1,13 @@
 import { GridContainer } from "../../components/GridContainer";
 import { Section } from "../../components/Section";
+import keepInTouchImg from '../../assets/imgs/keep-in-touch.png';
+import emailIcon from '../../assets/vectors/btn-icon-mail.svg';
+import telegramIcon from '../../assets/vectors/social-telegram.svg';
+import twitterIcon from '../../assets/vectors/social-twitter.svg';
+import redditIcon from '../../assets/vectors/social-reddit.svg';
+import webIcon from '../../assets/vectors/social-web.svg';
+import youtubeIcon from '../../assets/vectors/social-youtube.svg';
+
 
 export const MailList = () => {
   return (
@@ -9,8 +17,8 @@ export const MailList = () => {
           <img
             className="w-100 d-block mx-lg-0 mx-auto"
             style={{ maxWidth: 570 }}
-            src="/src/assets/imgs/keep-in-touch.png"
-            alt="keep-in-touch"
+            src={keepInTouchImg}
+            alt="Crypto Tools Connect"
           />
         </div>
         <div className="col-lg-6 d-flex justify-content-lg-start justify-content-center align-items-center">
@@ -25,8 +33,8 @@ export const MailList = () => {
               <button className="btn btn-gradient mx-auto mx-lg-0">
                 <img
                   className="me-3"
-                  src="/src/assets/vectors/btn-icon-mail.svg"
-                  alt="mail"
+                  src={emailIcon}
+                  alt="E-mail"
                 />
                 <div className="btn-text fs-18">Subscribe</div>
               </button>
@@ -35,21 +43,20 @@ export const MailList = () => {
             <div className="social-links mt-30 justify-content-lg-start justify-content-center">
             <a className="blue" href="#0">
               <img
-                src="/src/assets/vectors/social-telegram.svg"
-                alt="telegram"
+                src={telegramIcon} alt="Telegram"
               />
             </a>
             <a className="pink" href="#0">
-              <img src="/src/assets/vectors/social-twitter.svg" alt="twitter" />
+              <img src={twitterIcon} alt="Twitter" />
             </a>
             <a className="red" href="#0">
-              <img src="/src/assets/vectors/social-reddit.svg" alt="reddit" />
+              <img src={redditIcon} alt="Reddit" />
             </a>
             <a className="blue" href="#0">
-              <img src="/src/assets/vectors/social-web.svg" alt="web" />
+              <img src={webIcon} alt="web" />
             </a>
             <a className="pink" href="#0">
-              <img src="/src/assets/vectors/social-youtube.svg" alt="youtube" />
+              <img src={youtubeIcon} alt="YouTube" />
             </a>
             </div>
           </div>

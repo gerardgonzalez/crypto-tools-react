@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import { GridContainer } from '../../components/GridContainer';
 import { Section } from '../../components/Section';
 import { MainLayout } from '../../layouts/MainLayout';
+import holderCalculatorImg from '../../assets/imgs/holder-calculator.png';
 
 const toolsList = [
   {
     name: "Holder Calculator",
-    img: "/src/assets/imgs/holder-calculator.png",
+    img: holderCalculatorImg,
     description1: "Did you purchase tokens from a pre-sale and are you planning on staking them?",
     description2: "<p>This calculator <b>will help you calculate your profits</b> and <b>optimize your returns through compound interest</b>.</p>",
     pink: true,
