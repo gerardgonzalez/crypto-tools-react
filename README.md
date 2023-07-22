@@ -4,7 +4,7 @@ CryptoTools is a suite of useful tools for all cryptocurrency enthusiasts. It is
 
 ## Application Preview
 
-You can find an online preview of the application at [https://cryptotools.com](https://cryptotools.com). This preview will give you an idea of the available tools and how the application functions.
+You can find an online preview of the application at [https://crypto-tools-react.vercel.app/](https://crypto-tools-react.vercel.app/). This preview will give you an idea of the available tools and how the application functions.
 
 ![CryptoTools Screenshot](src/assets/imgs/screenshot.png)
 
