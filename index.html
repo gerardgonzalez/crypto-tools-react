@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="/src/assets/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="/src/assets/css/bootstrap-utilities.min.css" />
 
+    <script>
+      const uri = window.location.pathname;
+      const canonicaURL = `https://dominio.com${uri}`;
+      const canonicalLink = document.createElement('link');
+      canonicalLink.rel = 'canonical';
+      canonicalLink.href = canonicaURL;
+      document.head.appendChild(canonicalLink);
+    </script>
+
     <title>Crypto Tools</title>
   </head>
   <body>
